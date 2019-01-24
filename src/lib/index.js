@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
-import dash_materialui from './components/dash_materialui.react';
+import Grid from './components/Grid.react';
 
 export {
-    dash_materialui
+    Grid
 };
