@@ -5,7 +5,7 @@ from dash.development.base_component import Component, _explicitize_args
 
 class Grid(Component):
     """A Grid component.
-A Dash material-ui Paper component
+A Dash material-ui Grid component
 
 Keyword arguments:
 - children (optional): The content of the component.

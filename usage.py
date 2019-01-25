@@ -10,7 +10,7 @@ app.css.config.serve_locally = True
 app.layout = html.Div([
     dash_materialui.Grid(container=True, children=[
         dash_materialui.Grid(item=True, xs=6, children="hejsa"),
-        dash_materialui.Grid(item=True, xs=6, children="hejsa")
+        dash_materialui.Grid(item=True, xs=6, children=dash_materialui.Paper(children=["Hejsa"])),
     ]
     ),
 ])

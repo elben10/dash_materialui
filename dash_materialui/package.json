@@ -17,6 +17,7 @@
   "author": "Jakob Jul Elben None",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/styles": "^3.0.0-alpha.8",
     "ramda": "^0.25.0"
   },
   "devDependencies": {

@@ -62,7 +62,7 @@ const defaultProps = {
 };
 
 
-/** A Dash material-ui Paper component */
+/** A Dash material-ui Grid component */
 class Grid extends Component<Props> {
     props: Props;
 
@@ -70,26 +70,26 @@ class Grid extends Component<Props> {
         const { alignContent, alignItems, classes, children, component, container, direction, item, justify, lg, md, sm, spacing, wrap, xl, xs, zeroMinWidth } = this.props;
 
         return (
-                <MuiGrid
-                    alignContent={alignContent}
-                    alignItems={alignItems}
-                    classes={classes}
-                    component={component}
-                    container={container}
-                    direction={direction}
-                    item={item}
-                    justify={justify}
-                    lg={lg}
-                    md={md}
-                    sm={sm}
-                    spacing={spacing}
-                    wrap={wrap}
-                    xl={xl}
-                    xs={xs}
-                    zeroMinWidth={zeroMinWidth}
-                >
-                    {children}
-                </MuiGrid>
+            <MuiGrid
+                alignContent={alignContent}
+                alignItems={alignItems}
+                classes={classes}
+                component={component}
+                container={container}
+                direction={direction}
+                item={item}
+                justify={justify}
+                lg={lg}
+                md={md}
+                sm={sm}
+                spacing={spacing}
+                wrap={wrap}
+                xl={xl}
+                xs={xs}
+                zeroMinWidth={zeroMinWidth}
+            >
+                {children}
+            </MuiGrid>
         );
     }
 }
