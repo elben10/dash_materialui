@@ -13,7 +13,7 @@ So far the following components is implemented
 - [ ] Box
 - [ ] Button
 - [ ] ButtonBase
-- [ ] Card
+- [x] Card
 - [ ] CardActionArea
 - [ ] CardActions
 - [ ] CardContent
