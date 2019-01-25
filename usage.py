@@ -11,7 +11,7 @@ app.layout = html.Div([
     dash_materialui.Grid(container=True, children=[
         dash_materialui.Grid(item=True, xs=6, children="hejsa"),
         dash_materialui.Grid(item=True, xs=6, children=dash_materialui.Paper(children=["Hejsa"])),
-        dash_materialui.AppBar(children='hejsa')
+        dash_materialui.AppBar(children=[dash_materialui.Avatar(alt="hejsa")])
     ]
     ),
 ])
