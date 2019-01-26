@@ -2,7 +2,7 @@ import dash
 import dash_html_components as html
 import dash_materialui
 
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=['https://fonts.googleapis.com/icon?family=Material+Icons'])
 
 app.scripts.config.serve_locally = True
 app.css.config.serve_locally = True
@@ -18,6 +18,7 @@ app.layout = html.Div(children=[
     #     dash_materialui.Grid(item=True, xs=6, children='TEST')
     # ]),
     # dash_materialui.Paper(children="TEST")
+    dash_materialui.Icon(children='accessibility_new')
 ])
 
 

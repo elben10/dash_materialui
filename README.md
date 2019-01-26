@@ -50,7 +50,7 @@ So far the following components is implemented
 - [ ] GridListTileBar
 - [ ] Grow
 - [ ] Hidden
-- [ ] Icon
+- [x] Icon
 - [ ] IconButton
 - [ ] Input
 - [ ] InputAdornment
