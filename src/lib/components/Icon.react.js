@@ -1,8 +1,6 @@
 // @flow
 
 import React, { Component } from 'react';
-import { loadCSS } from 'fg-loadcss/src/loadCSS';
-
 
 import MuiIcon from '@material-ui/core/Icon';
 
