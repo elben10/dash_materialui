@@ -95,13 +95,13 @@ So far the following components is implemented
 - [ ] SwipeableDrawer
 - [ ] Switch
 - [ ] Tab
-- [ ] Table
-- [ ] TableBody
-- [ ] TableCell
-- [ ] TableFooter
-- [ ] TableHead
+- [x] Table
+- [x] TableBody
+- [x] TableCell
+- [x] TableFooter
+- [x] TableHead
 - [ ] TablePagination
-- [ ] TableRow
+- [x] TableRow
 - [ ] TableSortLabel
 - [ ] Tabs
 - [ ] TextField

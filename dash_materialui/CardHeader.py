@@ -16,16 +16,13 @@ Keyword arguments:
 - subheader (optional): The content of the component.
 - subheaderTypographyProps (optional): subheaderTypographyProps
 - title (optional): The content of the Card Title.
-- titleTypographyProps (optional): These props will be forwarded to the title (as long as disableTypography is not true).
-
-Available events: """
+- titleTypographyProps (optional): These props will be forwarded to the title (as long as disableTypography is not true)."""
     @_explicitize_args
     def __init__(self, action=Component.UNDEFINED, avatar=Component.UNDEFINED, classes=Component.UNDEFINED, component=Component.UNDEFINED, disableTypography=Component.UNDEFINED, subheader=Component.UNDEFINED, subheaderTypographyProps=Component.UNDEFINED, title=Component.UNDEFINED, titleTypographyProps=Component.UNDEFINED, **kwargs):
         self._prop_names = ['action', 'avatar', 'classes', 'component', 'disableTypography', 'subheader', 'subheaderTypographyProps', 'title', 'titleTypographyProps']
         self._type = 'CardHeader'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['action', 'avatar', 'classes', 'component', 'disableTypography', 'subheader', 'subheaderTypographyProps', 'title', 'titleTypographyProps']
         self.available_wildcard_properties =            []
 

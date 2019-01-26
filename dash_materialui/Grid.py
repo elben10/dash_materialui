@@ -24,16 +24,13 @@ Keyword arguments:
 - wrap (optional): Defines the flex-wrap style property. It's applied for all screen sizes.
 - xl (optional): Defines the number of grids the component is going to use. It's applied for the xl breakpoint and wider screens.
 - xs (optional): Defines the number of grids the component is going to use. It's applied for all the screen sizes with the lowest priority.
-- zeroMinWidth (boolean; optional): If true, it sets min-width: 0 on the item. Refer to the limitations section of the documentation to better understand the use case.
-
-Available events: """
+- zeroMinWidth (boolean; optional): If true, it sets min-width: 0 on the item. Refer to the limitations section of the documentation to better understand the use case."""
     @_explicitize_args
     def __init__(self, children=None, alignContent=Component.UNDEFINED, alignItems=Component.UNDEFINED, classes=Component.UNDEFINED, component=Component.UNDEFINED, container=Component.UNDEFINED, direction=Component.UNDEFINED, item=Component.UNDEFINED, justify=Component.UNDEFINED, lg=Component.UNDEFINED, md=Component.UNDEFINED, sm=Component.UNDEFINED, spacing=Component.UNDEFINED, wrap=Component.UNDEFINED, xl=Component.UNDEFINED, xs=Component.UNDEFINED, zeroMinWidth=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'alignContent', 'alignItems', 'classes', 'component', 'container', 'direction', 'item', 'justify', 'lg', 'md', 'sm', 'spacing', 'wrap', 'xl', 'xs', 'zeroMinWidth']
         self._type = 'Grid'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'alignContent', 'alignItems', 'classes', 'component', 'container', 'direction', 'item', 'justify', 'lg', 'md', 'sm', 'spacing', 'wrap', 'xl', 'xs', 'zeroMinWidth']
         self.available_wildcard_properties =            []
 

@@ -7,6 +7,12 @@ import CardHeader from './components/CardHeader.react';
 import Icon from './components/Icon.react'
 import Grid from './components/Grid.react';
 import Paper from './components/Paper.react';
+import Table from './components/Table.react';
+import TableBody from './components/TableBody.react';
+import TableCell from './components/TableCell.react';
+import TableFooter from './components/TableFooter.react';
+import TableHead from './components/TableHead.react';
+import TableRow from './components/TableRow.react';
 
 export {
     AppBar,
@@ -17,4 +23,10 @@ export {
     Icon,
     Grid,
     Paper,
+    Table,
+    TableBody,
+    TableCell,
+    TableFooter,
+    TableHead,
+    TableRow,
 };

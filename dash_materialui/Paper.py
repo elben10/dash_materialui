@@ -12,16 +12,13 @@ Keyword arguments:
 - classes (optional): Override or extend the styles applied to the component. See CSS API below for more details.
 - component (optional): The component used for the root node. Either a string to use a DOM element or a component.
 - elevation (number; optional): Shadow depth, corresponds to dp in the spec. It's accepting values between 0 and 24 inclusive.
-- square (boolean; optional): If true, rounded corners are disabled.
-
-Available events: """
+- square (boolean; optional): If true, rounded corners are disabled."""
     @_explicitize_args
     def __init__(self, children=None, classes=Component.UNDEFINED, component=Component.UNDEFINED, elevation=Component.UNDEFINED, square=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'classes', 'component', 'elevation', 'square']
         self._type = 'Paper'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'classes', 'component', 'elevation', 'square']
         self.available_wildcard_properties =            []
 

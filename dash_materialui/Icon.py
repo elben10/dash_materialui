@@ -12,16 +12,13 @@ Keyword arguments:
 - classes (optional): Override or extend the styles applied to the component. See CSS API below for more details.
 - color (optional): The color of the component. It supports those theme colors that make sense for this component.
 - component (optional): The component used for the root node. Either a string to use a DOM element or a component.
-- fontSize (optional): The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size.
-
-Available events: """
+- fontSize (optional): The fontSize applied to the icon. Defaults to 24px, but can be configure to inherit font size."""
     @_explicitize_args
     def __init__(self, children=None, classes=Component.UNDEFINED, color=Component.UNDEFINED, component=Component.UNDEFINED, fontSize=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'classes', 'color', 'component', 'fontSize']
         self._type = 'Icon'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'classes', 'color', 'component', 'fontSize']
         self.available_wildcard_properties =            []
 

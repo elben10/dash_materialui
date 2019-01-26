@@ -11,16 +11,13 @@ Keyword arguments:
 - children (optional): The content of the component.
 - classes (optional): Override or extend the styles applied to the component. See CSS API below for more details.
 - color (optional): The color of the component. It supports those theme colors that make sense for this component.
-- position (optional): The positioning type. The behavior of the different options is described in the MDN web docs. Note: sticky is not universally supported and will fall back to static when unavailable.
-
-Available events: """
+- position (optional): The positioning type. The behavior of the different options is described in the MDN web docs. Note: sticky is not universally supported and will fall back to static when unavailable."""
     @_explicitize_args
     def __init__(self, children=None, classes=Component.UNDEFINED, color=Component.UNDEFINED, position=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'classes', 'color', 'position']
         self._type = 'AppBar'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'classes', 'color', 'position']
         self.available_wildcard_properties =            []
 

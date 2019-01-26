@@ -15,16 +15,13 @@ Keyword arguments:
 - imgProps (optional): Attributes applied to the img element if the component is used to display an image.
 - sizes (string; optional): The sizes attribute for the img element.
 - src (string; optional): The src attribute for the img element.
-- srcSet (string; optional): The srcSet attribute for the img element.
-
-Available events: """
+- srcSet (string; optional): The srcSet attribute for the img element."""
     @_explicitize_args
     def __init__(self, children=None, alt=Component.UNDEFINED, classes=Component.UNDEFINED, component=Component.UNDEFINED, imgProps=Component.UNDEFINED, sizes=Component.UNDEFINED, src=Component.UNDEFINED, srcSet=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'alt', 'classes', 'component', 'imgProps', 'sizes', 'src', 'srcSet']
         self._type = 'Avatar'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'alt', 'classes', 'component', 'imgProps', 'sizes', 'src', 'srcSet']
         self.available_wildcard_properties =            []
 

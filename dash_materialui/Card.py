@@ -10,16 +10,13 @@ A Dash material-ui Paper component
 Keyword arguments:
 - children (optional): The content of the component.
 - classes (optional): Override or extend the styles applied to the component. See CSS API below for more details.
-- raised (boolean; optional): If true, the card will use raised styling.
-
-Available events: """
+- raised (boolean; optional): If true, the card will use raised styling."""
     @_explicitize_args
     def __init__(self, children=None, classes=Component.UNDEFINED, raised=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'classes', 'raised']
         self._type = 'Card'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'classes', 'raised']
         self.available_wildcard_properties =            []
 

@@ -16,16 +16,13 @@ Keyword arguments:
 - invisible (boolean; optional): If true, the badge will be invisible.
 - max (number; optional): Max count to show.
 - showZero (boolean; optional): Controls whether the badge is hidden when badgeContent is zero.
-- variant (optional): The variant to use.
-
-Available events: """
+- variant (optional): The variant to use."""
     @_explicitize_args
     def __init__(self, children=None, badgeContent=Component.UNDEFINED, classes=Component.UNDEFINED, color=Component.UNDEFINED, component=Component.UNDEFINED, invisible=Component.UNDEFINED, max=Component.UNDEFINED, showZero=Component.UNDEFINED, variant=Component.UNDEFINED, **kwargs):
         self._prop_names = ['children', 'badgeContent', 'classes', 'color', 'component', 'invisible', 'max', 'showZero', 'variant']
         self._type = 'Badge'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
         self.available_properties = ['children', 'badgeContent', 'classes', 'color', 'component', 'invisible', 'max', 'showZero', 'variant']
         self.available_wildcard_properties =            []
 
