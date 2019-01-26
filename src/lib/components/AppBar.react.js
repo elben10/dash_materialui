@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiAppBar from '@material-ui/core/AppBar';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 type Props = {
     /** The content of the component. */
@@ -23,7 +26,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class AppBar extends Component<Props> {
+class AppBar extends Component<Props> {
     props: Props;
 
     render() {
@@ -43,3 +46,4 @@ export default class AppBar extends Component<Props> {
 }
 
 AppBar.defaultProps = defaultProps;
+export default withStyles(styles)(AppBar);

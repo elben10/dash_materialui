@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiAvatar from '@material-ui/core/Avatar';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 type Props = {
     /** Used in combination with src or srcSet to provide an alt attribute for the rendered img element. */
@@ -35,7 +38,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Avatar component */
-export default class Avatar extends Component<Props> {
+class Avatar extends Component<Props> {
     props: Props;
 
     render() {
@@ -58,3 +61,4 @@ export default class Avatar extends Component<Props> {
 }
 
 Avatar.defaultProps = defaultProps;
+export default withStyles(styles)(Avatar);

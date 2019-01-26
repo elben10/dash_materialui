@@ -3,6 +3,10 @@
 import React, { Component, Children } from 'react';
 
 import MuiBadge from '@material-ui/core/Badge';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
+
 
 type Props = {
     /** The content rendered within the badge. */
@@ -38,7 +42,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Badge component */
-export default class Badge extends Component<Props> {
+class Badge extends Component<Props> {
     props: Props;
 
     render() {
@@ -62,3 +66,4 @@ export default class Badge extends Component<Props> {
 }
 
 Badge.defaultProps = defaultProps;
+export default withStyles(styles)(Badge);

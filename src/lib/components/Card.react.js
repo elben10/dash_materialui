@@ -3,6 +3,14 @@
 import React, { Component } from 'react';
 
 import MuiCard from '@material-ui/core/Card';
+import { withStyles } from '@material-ui/core/styles';
+
+
+const styles = {
+    root: {
+        maxWidth: 400,
+    },
+  };
 
 type Props = {
     /** The content of the component. */
@@ -21,7 +29,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class Card extends Component<Props> {
+class Card extends Component<Props> {
     props: Props;
 
     render() {
@@ -39,3 +47,5 @@ export default class Card extends Component<Props> {
 }
 
 Card.defaultProps = defaultProps;
+
+export default withStyles(styles)(Card);

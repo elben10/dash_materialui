@@ -2,41 +2,40 @@
 
 import React, { Component } from 'react';
 
-import MuiTableFooter from '@material-ui/core/TableFooter';
+import MuiCardContent from '@material-ui/core/CardContent';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = {};
 
-
 type Props = {
     children?: node,
     classes?: object,
-    component?: componentPropType,
+    component?: Component,
 };
 
 const defaultProps = {
     children: null,
     classes: null,
-    component: 'thead',
+    component: 'div'
 };
 
 /** A Dash material-ui Paper component */
-class TableFooter extends Component<Props> {
+class CardContent extends Component<Props> {
     props: Props;
 
     render() {
-        const { children, classes, component } = this.props;
+        const { children, classes, component, } = this.props;
 
         return (
-            <MuiTableFooter
+            <MuiCardContent
                 classes={classes}
                 component={component}
             >
                 {children}
-            </MuiTableFooter>
+            </MuiCardContent>
         );
     }
 }
 
-TableFooter.defaultProps = defaultProps;
-export default withStyles(styles)(TableFooter);
+CardContent.defaultProps = defaultProps;
+export default withStyles(styles)(CardContent);

@@ -3,7 +3,9 @@ import AppBar from './components/AppBar.react';
 import Avatar from './components/Avatar.react';
 import Badge from './components/Badge.react';
 import Card from './components/Card.react';
+import CardContent from './components/CardContent.react';
 import CardHeader from './components/CardHeader.react';
+import CardMedia from './components/CardMedia.react';
 import Icon from './components/Icon.react'
 import Grid from './components/Grid.react';
 import Paper from './components/Paper.react';
@@ -19,7 +21,9 @@ export {
     Avatar,
     Badge,
     Card,
+    CardContent,
     CardHeader,
+    CardMedia,
     Icon,
     Grid,
     Paper,

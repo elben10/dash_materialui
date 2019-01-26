@@ -3,7 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiTableRow from '@material-ui/core/TableRow';
-import { SelectField } from 'material-ui';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 
 type Props = {
@@ -23,7 +25,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class TableRow extends Component<Props> {
+class TableRow extends Component<Props> {
     props: Props;
 
     render() {
@@ -43,3 +45,4 @@ export default class TableRow extends Component<Props> {
 }
 
 TableRow.defaultProps = defaultProps;
+export default withStyles(styles)(TableRow);

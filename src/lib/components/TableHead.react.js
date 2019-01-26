@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiTableHead from '@material-ui/core/TableHead';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 
 type Props = {
@@ -21,7 +24,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class TableHead extends Component<Props> {
+class TableHead extends Component<Props> {
     props: Props;
 
     render() {
@@ -39,3 +42,4 @@ export default class TableHead extends Component<Props> {
 }
 
 TableHead.defaultProps = defaultProps;
+export default withStyles(styles)(TableHead);

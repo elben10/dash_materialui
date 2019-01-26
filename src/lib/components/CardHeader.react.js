@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiCardHeader from '@material-ui/core/CardHeader';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 type Props = {
     /** The action to display in the card header. */
@@ -38,7 +41,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class CardHeader extends Component<Props> {
+class CardHeader extends Component<Props> {
     props: Props;
 
     render() {
@@ -62,3 +65,4 @@ export default class CardHeader extends Component<Props> {
 }
 
 CardHeader.defaultProps = defaultProps;
+export default withStyles(styles)(CardHeader);

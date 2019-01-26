@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiPaper from '@material-ui/core/Paper';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 type Props = {
     /** The content of the component. */
@@ -26,7 +29,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class Paper extends Component<Props> {
+class Paper extends Component<Props> {
     props: Props;
 
     render() {
@@ -46,3 +49,4 @@ export default class Paper extends Component<Props> {
 }
 
 Paper.defaultProps = defaultProps;
+export default withStyles(styles)(Paper);

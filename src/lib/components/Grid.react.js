@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiGrid from '@material-ui/core/Grid';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 type Props = {
     /** Defines the align-content style property. It's applied for all screen sizes. */

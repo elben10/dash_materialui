@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 import MuiIcon from '@material-ui/core/Icon';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {};
 
 
 type Props = {
@@ -27,7 +30,7 @@ const defaultProps = {
 };
 
 /** A Dash material-ui Paper component */
-export default class Icon extends Component<Props> {
+class Icon extends Component<Props> {
     props: Props;
 
     render() {
@@ -47,3 +50,4 @@ export default class Icon extends Component<Props> {
 }
 
 Icon.defaultProps = defaultProps;
+export default withStyles(styles)(Icon);
