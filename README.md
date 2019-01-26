@@ -17,7 +17,7 @@ So far the following components is implemented
 - [ ] CardActionArea
 - [ ] CardActions
 - [ ] CardContent
-- [ ] CardHeader
+- [x] CardHeader
 - [ ] CardMedia
 - [ ] Checkbox
 - [ ] Chip
