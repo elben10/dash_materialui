@@ -60,12 +60,12 @@ app.layout = html.Div(
         # dash_materialui.Paper(children="TEST")
         dash_materialui.Grid(
             container=True,
-            xs=10,
-            children=dash_materialui.Grid(
+            xs=8,
+            children=dash_materialui.Grid(xs=12,
                 item=True,
                 children=[
-                    dash_materialui.Paper(
-                        table_writer(
+                    dash_materialui.Paper(children=
+                        html.Div(table_writer(
                             [
                                 "Dessert (100g serving)",
                                 "Calories",
@@ -94,7 +94,7 @@ app.layout = html.Div(
                             ["Eclair", 262, 16.0, 24, 6.0],
                             ["Cupcake", 305, 3.7, 67, 4.3],
                             ["Gingerbread", 356, 16.0, 49, 3.9],
-                        ),
+                        ), style={'overflow': 'auto'}),
                         elevation=3,
                     ),
                     dash_materialui.Table(
