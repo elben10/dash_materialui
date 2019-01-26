@@ -21,7 +21,7 @@ So far the following components is implemented
 - [x] CardMedia
 - [ ] Checkbox
 - [ ] Chip
-- [ ] CircularProgress
+- [x] CircularProgress
 - [ ] ClickAwayListener
 - [ ] Collapse
 - [ ] CssBaseline

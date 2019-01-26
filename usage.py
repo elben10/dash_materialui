@@ -119,43 +119,22 @@ app.layout = html.Div(
                 ],
             ),
         ),
-        dash_materialui.Grid(
-            container=True,
-            direction="row",
-            spacing=40,
+        dash_materialui.Grid(container=True, direction='row', spacing=40, children=[
+        dash_materialui.Grid(dash_materialui.Card(
             children=[
-                dash_materialui.Grid(
-                    dash_materialui.Card(
-                        children=[
-                            dash_materialui.CardHeader(
-                                title="Shrimp and Chorizo Paella",
-                                subheader="September 14, 2016",
-                            ),
-                            dash_materialui.CardMedia(
-                                image="https://material-ui.com/static/images/cards/paella.jpg"
-                            ),
-                            dash_materialui.CardContent("hejsa"),
-                        ]
-                    ),
-                    item=True,
-                ),
-                dash_materialui.Grid(
-                    dash_materialui.Card(
-                        children=[
-                            dash_materialui.CardHeader(
-                                title="Shrimp and Chorizo Paella",
-                                subheader="September 14, 2016",
-                            ),
-                            dash_materialui.CardMedia(
-                                image="https://material-ui.com/static/images/cards/paella.jpg"
-                            ),
-                            dash_materialui.CardContent("hejsa"),
-                        ]
-                    ),
-                    item=True,
-                ),
-            ],
-        ),
+                dash_materialui.CardHeader(title="Shrimp and Chorizo Paella", subheader="September 14, 2016"),
+                dash_materialui.CardMedia(image='https://material-ui.com/static/images/cards/paella.jpg'),
+                dash_materialui.CardContent("hejsa"),
+            ]
+        ), item=True),
+        dash_materialui.Grid(dash_materialui.Card(
+            children=[
+                dash_materialui.CardHeader(title="Shrimp and Chorizo Paella", subheader="September 14, 2016"),
+                dash_materialui.CardMedia(image='https://material-ui.com/static/images/cards/paella.jpg'),
+                dash_materialui.CardContent("hejsa"),
+            ]
+        ), item=True)]),
+        dash_materialui.CircularProgress()
     ]
 )
 

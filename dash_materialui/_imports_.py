@@ -5,6 +5,7 @@ from .Card import Card
 from .CardContent import CardContent
 from .CardHeader import CardHeader
 from .CardMedia import CardMedia
+from .CircularProgress import CircularProgress
 from .Grid import Grid
 from .Icon import Icon
 from .Paper import Paper
@@ -23,6 +24,7 @@ __all__ = [
     "CardContent",
     "CardHeader",
     "CardMedia",
+    "CircularProgress",
     "Grid",
     "Icon",
     "Paper",
