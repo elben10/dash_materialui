@@ -178,6 +178,9 @@ app.layout = html.Div(
         dash_materialui.Typography(
             component="h1", variant="h1", gutterBottom=True, children="h1. Heading"
         ),
+        dash_materialui.Avatar('R'),
+        dash_materialui.Button("hejsa", variant='contained'),
+        dash_materialui.Button("hejsa", variant='contained', color="secondary", href='/')
     ]
 )
 

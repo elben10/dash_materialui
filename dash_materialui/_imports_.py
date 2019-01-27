@@ -1,6 +1,7 @@
 from .AppBar import AppBar
 from .Avatar import Avatar
 from .Badge import Badge
+from .Button import Button
 from .Card import Card
 from .CardContent import CardContent
 from .CardHeader import CardHeader
@@ -21,6 +22,7 @@ __all__ = [
     "AppBar",
     "Avatar",
     "Badge",
+    "Button",
     "Card",
     "CardContent",
     "CardHeader",

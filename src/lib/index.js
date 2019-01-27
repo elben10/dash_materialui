@@ -2,6 +2,7 @@
 import AppBar from './components/AppBar.react';
 import Avatar from './components/Avatar.react';
 import Badge from './components/Badge.react';
+import Button from './components/Button.react';
 import Card from './components/Card.react';
 import CardContent from './components/CardContent.react';
 import CardHeader from './components/CardHeader.react';
@@ -22,6 +23,7 @@ export {
     AppBar,
     Avatar,
     Badge,
+    Button,
     Card,
     CardContent,
     CardHeader,

@@ -8,17 +8,25 @@ class Button(Component):
 A Dash material-ui Paper component
 
 Keyword arguments:
-- children (optional): The content of the component.
-
-Available events: """
+- children (optional)
+- classes (optional)
+- color (optional)
+- component (optional)
+- disabled (boolean; optional)
+- disableFocusRipple (boolean; optional)
+- disableRipple (boolean; optional)
+- fullWidth (boolean; optional)
+- href (string; optional)
+- mini (boolean; optional)
+- size (optional)
+- variant (optional)"""
     @_explicitize_args
-    def __init__(self, children=None, **kwargs):
-        self._prop_names = ['children']
+    def __init__(self, children=None, classes=Component.UNDEFINED, color=Component.UNDEFINED, component=Component.UNDEFINED, disabled=Component.UNDEFINED, disableFocusRipple=Component.UNDEFINED, disableRipple=Component.UNDEFINED, fullWidth=Component.UNDEFINED, href=Component.UNDEFINED, mini=Component.UNDEFINED, size=Component.UNDEFINED, variant=Component.UNDEFINED, **kwargs):
+        self._prop_names = ['children', 'classes', 'color', 'component', 'disabled', 'disableFocusRipple', 'disableRipple', 'fullWidth', 'href', 'mini', 'size', 'variant']
         self._type = 'Button'
         self._namespace = 'dash_materialui'
         self._valid_wildcard_attributes =            []
-        self.available_events = []
-        self.available_properties = ['children']
+        self.available_properties = ['children', 'classes', 'color', 'component', 'disabled', 'disableFocusRipple', 'disableRipple', 'fullWidth', 'href', 'mini', 'size', 'variant']
         self.available_wildcard_properties =            []
 
         _explicit_args = kwargs.pop('_explicit_args')
