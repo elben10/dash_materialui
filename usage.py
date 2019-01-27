@@ -178,14 +178,25 @@ app.layout = html.Div(
         dash_materialui.Typography(
             component="h1", variant="h1", gutterBottom=True, children="h1. Heading"
         ),
-        dash_materialui.Avatar('R'),
-        dash_materialui.Button("hejsa", variant='contained'),
-        dash_materialui.Button("hejsa", variant='contained', color="secondary", href='/'),
+        dash_materialui.Avatar("R"),
+        dash_materialui.Button("hejsa", variant="contained"),
+        dash_materialui.Button(
+            "hejsa", variant="contained", color="secondary", href="/"
+        ),
         dash_materialui.Collapse(dash_materialui.Typography("hejsa")),
-        dash_materialui.IconButton(dash_materialui.Icon('star')),
-        dash_materialui.Link("hejsa", variant='body1', href='/'),
-        dash_materialui.List([dash_materialui.ListItem('1', divider=True), dash_materialui.ListItem('1', divider=True)]),
-        dash_materialui.Avatar(dash_materialui.Icon('star'))
+        dash_materialui.IconButton(dash_materialui.Icon("star")),
+        dash_materialui.Link("hejsa", variant="body1", href="/"),
+        dash_materialui.List(
+            [
+                dash_materialui.ListItem(
+                    dash_materialui.ListItemAvatar(
+                        dash_materialui.Avatar(dash_materialui.Icon("star"))
+                    ),
+                    divider=True,
+                ),
+                dash_materialui.ListItem(dash_materialui.Avatar(dash_materialui.Icon('star')), divider=True),
+            ]
+        ),
     ]
 )
 

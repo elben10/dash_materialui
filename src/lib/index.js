@@ -14,6 +14,7 @@ import IconButton from './components/IconButton.react';
 import Link from './components/Link.react';
 import List from './components/List.react';
 import ListItem from './components/ListItem.react';
+import ListItemAvatar from './components/ListItemAvatar.react';
 import Grid from './components/Grid.react';
 import Paper from './components/Paper.react';
 import Table from './components/Table.react';
@@ -39,7 +40,8 @@ export {
     IconButton,
     Link,
     List,
-    ListItem, 
+    ListItem,
+    ListItemAvatar, 
     Grid,
     Paper,
     Table,

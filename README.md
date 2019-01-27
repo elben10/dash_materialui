@@ -60,7 +60,7 @@ So far the following components is implemented
 - [x] Link
 - [x] List
 - [x] ListItem
-- [ ] ListItemAvatar
+- [x] ListItemAvatar
 - [ ] ListItemIcon
 - [ ] ListItemSecondaryAction
 - [ ] ListItemText
