@@ -51,7 +51,7 @@ So far the following components is implemented
 - [ ] Grow
 - [ ] Hidden
 - [x] Icon
-- [ ] IconButton
+- [x] IconButton
 - [ ] Input
 - [ ] InputAdornment
 - [ ] InputBase

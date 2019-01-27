@@ -10,6 +10,7 @@ from .CircularProgress import CircularProgress
 from .Collapse import Collapse
 from .Grid import Grid
 from .Icon import Icon
+from .IconButton import IconButton
 from .Paper import Paper
 from .Table import Table
 from .TableBody import TableBody
@@ -32,6 +33,7 @@ __all__ = [
     "Collapse",
     "Grid",
     "Icon",
+    "IconButton",
     "Paper",
     "Table",
     "TableBody",

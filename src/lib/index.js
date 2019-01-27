@@ -9,7 +9,8 @@ import CardHeader from './components/CardHeader.react';
 import CardMedia from './components/CardMedia.react';
 import CircularProgress from './components/CircularProgress.react';
 import Collapse from './components/Collapse.react';
-import Icon from './components/Icon.react'
+import Icon from './components/Icon.react';
+import IconButton from './components/IconButton.react';
 import Grid from './components/Grid.react';
 import Paper from './components/Paper.react';
 import Table from './components/Table.react';
@@ -32,6 +33,7 @@ export {
     CircularProgress,
     Collapse,
     Icon,
+    IconButton,
     Grid,
     Paper,
     Table,
