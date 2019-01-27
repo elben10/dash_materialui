@@ -15,6 +15,7 @@ from .TableCell import TableCell
 from .TableFooter import TableFooter
 from .TableHead import TableHead
 from .TableRow import TableRow
+from .Typography import Typography
 
 __all__ = [
     "AppBar",
@@ -33,5 +34,6 @@ __all__ = [
     "TableCell",
     "TableFooter",
     "TableHead",
-    "TableRow"
+    "TableRow",
+    "Typography"
 ]

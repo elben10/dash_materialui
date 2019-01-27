@@ -107,6 +107,6 @@ So far the following components is implemented
 - [ ] TextField
 - [ ] Toolbar
 - [ ] Tooltip
-- [ ] Typography
+- [x] Typography
 - [ ] Zoom
 
