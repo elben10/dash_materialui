@@ -23,7 +23,7 @@ So far the following components is implemented
 - [ ] Chip
 - [x] CircularProgress
 - [ ] ClickAwayListener
-- [ ] Collapse
+- [x] Collapse
 - [ ] CssBaseline
 - [ ] Dialog
 - [ ] DialogActions
