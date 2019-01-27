@@ -182,7 +182,8 @@ app.layout = html.Div(
         dash_materialui.Button("hejsa", variant='contained'),
         dash_materialui.Button("hejsa", variant='contained', color="secondary", href='/'),
         dash_materialui.Collapse(dash_materialui.Typography("hejsa")),
-        dash_materialui.IconButton(dash_materialui.Icon('star'))
+        dash_materialui.IconButton(dash_materialui.Icon('star')),
+        dash_materialui.Link("hejsa", variant='body1', href='/')
     ]
 )
 

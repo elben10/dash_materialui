@@ -11,6 +11,7 @@ import CircularProgress from './components/CircularProgress.react';
 import Collapse from './components/Collapse.react';
 import Icon from './components/Icon.react';
 import IconButton from './components/IconButton.react';
+import Link from './components/Link.react';
 import Grid from './components/Grid.react';
 import Paper from './components/Paper.react';
 import Table from './components/Table.react';
@@ -34,6 +35,7 @@ export {
     Collapse,
     Icon,
     IconButton,
+    Link,
     Grid,
     Paper,
     Table,

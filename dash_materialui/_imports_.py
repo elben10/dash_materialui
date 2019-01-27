@@ -11,6 +11,7 @@ from .Collapse import Collapse
 from .Grid import Grid
 from .Icon import Icon
 from .IconButton import IconButton
+from .Link import Link
 from .Paper import Paper
 from .Table import Table
 from .TableBody import TableBody
@@ -34,6 +35,7 @@ __all__ = [
     "Grid",
     "Icon",
     "IconButton",
+    "Link",
     "Paper",
     "Table",
     "TableBody",

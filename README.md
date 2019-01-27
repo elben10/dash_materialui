@@ -57,7 +57,7 @@ So far the following components is implemented
 - [ ] InputBase
 - [ ] InputLabel
 - [ ] LinearProgress
-- [ ] Link
+- [x] Link
 - [ ] List
 - [ ] ListItem
 - [ ] ListItemAvatar
