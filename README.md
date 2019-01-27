@@ -58,8 +58,8 @@ So far the following components is implemented
 - [ ] InputLabel
 - [ ] LinearProgress
 - [x] Link
-- [ ] List
-- [ ] ListItem
+- [x] List
+- [x] ListItem
 - [ ] ListItemAvatar
 - [ ] ListItemIcon
 - [ ] ListItemSecondaryAction
